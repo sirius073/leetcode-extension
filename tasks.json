@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Test Current Solution",
+            "type": "shell",
+            "command": "python",
+            "args": ["test.py", "${file}"],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+    
+}
+
